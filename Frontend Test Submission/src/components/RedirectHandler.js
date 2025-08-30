@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import log from '../../logging-middleware';
+import log from '../logging-middleware';
 
 const RedirectHandler = () => {
   const { code } = useParams();

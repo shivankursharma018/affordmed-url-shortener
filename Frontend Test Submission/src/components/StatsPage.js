@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import log from '../../logging-middleware';
+import log from '../logging-middleware';
 
 const StatsPage = () => {
   useEffect(() => {
